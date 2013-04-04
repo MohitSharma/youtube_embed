@@ -1,6 +1,10 @@
 # YoutubeEmbed
 
-TODO: Write a gem description
+Embed youtube videos in textarea from URL
+
+1. Simple Embed
+
+2. Embed with title, description & thumbnail
 
 ## Installation
 
@@ -18,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Under Active Development
 
 ## Contributing
 
