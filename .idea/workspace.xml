@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7640352-25ab-4292-982e-3e09aa420ffa" name="Default" comment="" />
+    <list default="true" id="b7640352-25ab-4292-982e-3e09aa420ffa" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/youtube_embed.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="youtube_embed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365069413989" ignored="false" />
     <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365070046387" ignored="false" />
     <file path="/youtube_embed.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365070158530" ignored="false" />
+    <file path="/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365070890113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +34,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.2188329">
+            <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="6" selection-start="166" selection-end="166" vertical-scroll-proportion="0.3580902">
               <folding />
             </state>
           </provider>
@@ -61,6 +81,7 @@
       <list>
         <option value="$PROJECT_DIR$/lib/youtube_embed.rb" />
         <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -236,7 +257,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.2188329">
+        <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="166" selection-end="166" vertical-scroll-proportion="0.3580902">
           <folding />
         </state>
       </provider>
