@@ -2,20 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7640352-25ab-4292-982e-3e09aa420ffa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md.orig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_embed/version.rb" afterPath="$PROJECT_DIR$/lib/youtube_embed/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/youtube_embed/model_additions_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/youtube_embed/railtie.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/youtube_embed_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youtube_embed.gemspec" afterPath="$PROJECT_DIR$/youtube_embed.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_embed.rb" afterPath="$PROJECT_DIR$/lib/youtube_embed.rb" />
     </list>
     <ignored path="youtube_embed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365069413989" ignored="false" />
-    <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365070046387" ignored="false" />
-    <file path="/youtube_embed.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365082015054" ignored="false" />
-    <file path="/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365070890113" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369116428063" ignored="false" />
+    <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365514357444" ignored="false" />
+    <file path="/youtube_embed.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365762221657" ignored="false" />
+    <file path="/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166205275" ignored="false" />
     <file path="/README.md" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365079290739" ignored="false" />
     <file path="/version.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365079782979" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/models/post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366121332817" ignored="false" />
+    <file path="/post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365164901002" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/_show.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365770829791" ignored="false" />
+    <file path="$PROJECT_DIR$/../phpapps/saucy/sites/all/themes/Saucey Skillet/page.tpl.php" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166118187" ignored="false" />
+    <file path="/page.tpl.php" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166068940" ignored="false" />
+    <file path="$PROJECT_DIR$/../phpapps/saucy/sites/all/modules/sauceyskillet_form/sauceyskillet_form.module" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365168666276" ignored="false" />
+    <file path="/sauceyskillet_form.module" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166836843" ignored="false" />
+    <file path="$PROJECT_DIR$/../phpapps/saucy/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166207242" ignored="false" />
+    <file path="$PROJECT_DIR$/../phpapps/saucy/sites/all/themes/Saucey Skillet/page--front.tpl.php" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166557650" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/home_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366203839891" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/db/schema.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366203839892" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/models/mileage_log_observer.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365425096700" ignored="false" />
+    <file path="/*.regexp" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180626056" ignored="false" />
+    <file path="/mileage_log.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365425865220" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/models/mileage_log.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365427329129" ignored="false" />
+    <file path="/development.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501619362" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/environments/development.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="/staging.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501367439" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/environments/staging.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501603728" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/environments/production.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501623017" ignored="false" />
+    <file path="/production.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501490007" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/database.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365501598567" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/config/locales/en.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365676743930" ignored="false" />
+    <file path="/en.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365511270718" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/devise/passwords/new.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365509565442" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/models/user.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366121332817" ignored="false" />
+    <file path="/user.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365676935852" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/devise/passwords/edit.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365512210968" ignored="false" />
+    <file path="/spec_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365514703091" ignored="false" />
+    <file path="/youtube_embed_spec.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365589568913" ignored="false" />
+    <file path="/model_additions.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369118318673" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/controllers/home_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="/_show.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365667981903" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/_share_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365770829791" ignored="false" />
+    <file path="/_share_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668010231" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/answers/_show.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365689672245" ignored="false" />
+    <file path="/_show.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668079312" ignored="false" />
+    <file path="/logged_in_menu.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668070767" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/application/logged_in_menu.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365675630582" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/comments/_show.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365676743930" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/home/_blocked_user.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365675650492" ignored="false" />
+    <file path="/_blocked_user.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668090418" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/home/search.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365675658971" ignored="false" />
+    <file path="/search.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668097120" ignored="false" />
+    <file path="/application.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774689502" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/layouts/application.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776576752" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/votes.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365675700493" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/profile/_friendships.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365675710928" ignored="false" />
+    <file path="/_friendships.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365668139437" ignored="false" />
+    <file path="/user_profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774694581" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/profile/user_profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369118169749" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/skill_sets/show.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365689672245" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/config/locales/bootsy.en.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365676743930" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/models/user.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/controllers/mileage_logs_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365686414215" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/routes.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/raman.txt" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/assets/stylesheets/style.scss" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/db/schema.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/paypal.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771830237" ignored="false" />
+    <file path="/paypal.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365687999853" ignored="false" />
+    <file path="/railtie.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365760442210" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/posts_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365770829791" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/config/initializers/session_store.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../one_year_kmiles/app/mailers/notifier.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365771779767" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/config/routes.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366196426861" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/assets/stylesheets/application.css" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776524115" ignored="false" />
+    <file path="/application.css" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776518329" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/assets/javascripts/application.js" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776555769" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/layouts/profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776583046" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/layouts/user_profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776590845" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773155230" ignored="false" />
+    <file path="/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773119369" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366203839891" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile.lock" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773801660" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774560880" ignored="false" />
+    <file path="/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774532040" ignored="false" />
+    <file path="/profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774681511" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/feedback/new.html.erb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774846338" ignored="false" />
+    <file path="/new.html.erb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775077434" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/feedbacks/new.html.erb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775346304" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/models/feedback.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366201250893" ignored="false" />
+    <file path="/feedback.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366201247783" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/assets/stylesheets/feedback.css.scss" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366014615416" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/uploads_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775378805" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/lib/generators/feedback_form/feedback_form_generator.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775378805" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/feedbacks/new.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366203839892" ignored="false" />
+    <file path="/new.html.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366201626629" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/db/migrate/20130412141011_create_feedback.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775834785" ignored="false" />
+    <file path="/20130412141011_create_feedback.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365775834785" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/mailers/feedback_mailer.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365777044452" ignored="false" />
+    <file path="/feedback_mailer.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776031591" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/feedback_mailer/feedback.html.erb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365777083808" ignored="false" />
+    <file path="/feedback.html.erb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365777082377" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/assets/javascripts/jquery.feedback.js" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366014615416" ignored="false" />
+    <file path="/jquery.feedback.js" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366008679323" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/feedback_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366020691425" ignored="false" />
+    <file path="/feedback_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366020690466" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/feedbacks_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366201679870" ignored="false" />
+    <file path="/feedbacks_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366201679870" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/application_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366098341547" ignored="false" />
+    <file path="/application_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366098339088" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/_event_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366178780077" ignored="false" />
+    <file path="/_event_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366178777421" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/models/event_post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366187074610" ignored="false" />
+    <file path="/event_post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366187074610" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/lib/helpers/chadr_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366099289344" ignored="false" />
+    <file path="/chadr_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366099264902" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/_show_event_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366111740807" ignored="false" />
+    <file path="/_show_event_post.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366111738212" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/assets/javascripts/posts.js.coffee" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366117742806" ignored="false" />
+    <file path="/posts.js.coffee" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366117614011" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/views/posts/_events.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180862355" ignored="false" />
+    <file path="/_events.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180861005" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/models/concerns/user/user_method.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366203839891" ignored="false" />
+    <file path="/user_method.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180817069" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/profile_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180776427" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/report_posts_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366198506962" ignored="false" />
+    <file path="/report_posts_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366198501843" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +155,73 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+            <state line="5" column="19" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="44" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="24" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube_embed_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/youtube_embed_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_additions_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/youtube_embed/model_additions_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_additions.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/model_additions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.032930844">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/railtie.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,19 +236,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youtube_embed.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="youtube_embed.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/youtube_embed.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="54" selection-start="610" selection-end="610" vertical-scroll-proportion="0.3580902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="22" column="35" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,19 +263,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/youtube_embed/version.rb" />
+        <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/youtube_embed_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/youtube_embed/railtie.rb" />
         <option value="$PROJECT_DIR$/lib/youtube_embed.rb" />
+        <option value="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="94" />
-    <option name="width" value="1853" />
-    <option name="height" value="877" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -135,7 +308,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,6 +320,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="youtube_embed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube_embed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube_embed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube_embed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube_embed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube_embed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="youtube_embed" />
@@ -188,12 +392,90 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chadr_for_change" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -206,26 +488,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="94" width="1853" height="877" extended-state="0" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28689885" sideWeight="0.97083336" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -284,13 +567,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
@@ -298,9 +574,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_embed.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="54" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="6" column="44" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="40" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/railtie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/youtube_embed/model_additions_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/youtube_embed_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -314,7 +663,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/youtube_embed.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="610" selection-end="610" vertical-scroll-proportion="0.3580902">
+        <state line="22" column="35" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/model_additions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.032930844">
           <folding />
         </state>
       </provider>

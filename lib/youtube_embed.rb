@@ -1,5 +1,6 @@
 require "youtube_embed/version"
-
+require "youtube_embed/model_additions"
+require "youtube_embed/railtie"
 module YoutubeEmbed
 
   #Extract ID From Url Formats
@@ -15,12 +16,12 @@ module YoutubeEmbed
     VIDEO_FORMATS.find { |video_format| url =~ video_format } and $1
   end
 
-  def self.thumbnail_and_description(video_id, width, height)
-    %Q{<iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>}
-  end
-
-  def self.simple(video_id, width, height)
-    %Q{<iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>}
+  def content_from_url
+    data = data.gsub(/<a?[^<]+ href="[(https?:\/\/)?(www\.)?youtube.com[^<]+]+">([^<]+)<\/a>/i, '\1')
+    data = data.gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, simple('\1', 200, 200))
   end
 
 end
+
+
+
