@@ -1,11 +1,12 @@
 module YoutubeEmbed
   module ModelAdditions
     def youtube_embed(attribute, with_description)
-      attribute.gsub(/<a?[^<]+ href="[(https?:\/\/)?(www\.)?youtube.com[^<]+]+">([^<]+)<\/a>/i, '\1')
+
+      send(attribute).gsub(/<a?[^<]+ href="[(https?:\/\/)?(www\.)?youtube.com[^<]+]+">([^<]+)<\/a>/i, '\1')
       if with_description
-        attribute.gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, thumbnail_and_description('\1', 200, 200))
+        send(attribute).gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, thumbnail_and_description('\1', 200, 200))
       else
-        attribute.gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, simple('\1', 200, 200))
+        send(attribute).gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, simple('\1', 200, 200))
       end
     end
 
