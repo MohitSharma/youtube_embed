@@ -1,0 +1,16 @@
+.youtube_embed_thumbnail {
+  float:left;
+  width:120px;
+  padding-right:10px;
+}
+.youtube_embed_details  {
+  float:left;
+}
+.youtube_embed_details .youtube_embed_title {
+  float:left;
+  width:100%;
+}
+.youtube_embed_details .youtube_embed_description {
+  float:left;
+  width:100%;
+}
