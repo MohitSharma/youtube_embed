@@ -1,3 +1,10 @@
+.youtube_embed_video {
+  float:left;
+  width:100%;
+}
+.youtube_embed_partial_video {
+  cursor:pointer;
+}
 .youtube_embed_thumbnail {
   float:left;
   width:120px;
@@ -5,6 +12,7 @@
 }
 .youtube_embed_details  {
   float:left;
+  width:300px;
 }
 .youtube_embed_details .youtube_embed_title {
   float:left;

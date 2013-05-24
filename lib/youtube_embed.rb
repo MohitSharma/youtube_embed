@@ -3,6 +3,7 @@ require "youtube_embed/model_additions"
 require "youtube_embed/video_object"
 require "youtube_embed/video_details"
 require "youtube_embed/railtie" if defined? Rails
+require "youtube_embed/engine"
 require 'httparty'
 module YoutubeEmbed
 
@@ -32,28 +33,33 @@ module YoutubeEmbed
     begin
       if video_url.to_s != ' '
         video_id = get_video_id(video_url)
-        video_details = YoutubeEmbed::VideoDetails.new(video_id)
-        thumbnails = video_details.thumbnail
-        %Q{<div class="youtube_embed_video">
-          <div class="youtube_embed_partial_video">
-            <div class="youtube_embed_thumbnail">
-              <img src="#{thumbnails[1]["url"]}" />
-            </div>
-            <div class="youtube_embed_details">
-              <div class="youtube_embed_title">
-               <strong>
-                 #{video_details.title["__content__"]}
-               </strong>
+        if video_id.present?
+          video_details = YoutubeEmbed::VideoDetails.new(video_id)
+          thumbnails = video_details.thumbnail
+          return %Q{<div class="youtube_embed_video">
+            <div class="youtube_embed_partial_video">
+              <div class="youtube_embed_thumbnail">
+                <img src="#{thumbnails[1]["url"]}" />
               </div>
-              <div class="youtube_embed_description">
-                #{video_details.description["__content__"]}
+              <div class="youtube_embed_details">
+                <div class="youtube_embed_title">
+                 <strong>
+                   #{video_details.title["__content__"]}
+                 </strong>
+                </div>
+                <div class="youtube_embed_description">
+                  #{video_details.description["__content__"].truncate(185)}
+                </div>
               </div>
             </div>
-          </div>
-          <div class="youtube_embed_main_video" style="display:none;">
-            <iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>}
+            <div class="youtube_embed_main_video" style="display:none;">
+              <iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>}
+        else
+          return video_url
+        end
+
       end
     rescue Exception => e
       Rails.logger.debug e.message
@@ -62,8 +68,14 @@ module YoutubeEmbed
 
   def self.simple(video_url, width, height)
     begin
-      video_id = get_video_id(video_url)
-      %Q{<div class="youtube_embed_video"><iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe></div>}
+      if video_url.to_s != ' '
+        video_id = get_video_id(video_url)
+        if video_id.present?
+          return %Q{<div class="youtube_embed_video"><iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe></div>}
+        else
+          return video_url
+        end
+    end
     rescue Exception => e
       Rails.logger.debug e.message
     end

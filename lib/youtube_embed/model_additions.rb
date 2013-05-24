@@ -1,7 +1,7 @@
 module YoutubeEmbed
   module ModelAdditions
     def youtube_embed(attribute, options)
-      before_validation do
+      after_save do
         send("#{attribute}=", YoutubeEmbed.youtube_embed(send(attribute), options))
       end
     end
