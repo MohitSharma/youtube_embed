@@ -20,6 +20,12 @@ Or install it yourself as:
 
     $ gem install youtube_embed
 
+And add CSS and JS
+  CSS in application.css
+    *= require youtube_embed
+  JS in application.js
+    //= require youtube_embed
+
 ## Usage
 
 It can be used in model where we can specify simple iframe embed or embedding with thumbnail & description
@@ -36,6 +42,7 @@ With Thumbnail & Description:
 This will modify the youtube link into html required to embed, If you don't want to modify html or simple change the view you can call method in view like this:
 
     <?=  YoutubeEmbed::youtube_embed(attr_here) ?>
+
 
 Working on further improvements
 
