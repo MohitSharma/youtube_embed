@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7640352-25ab-4292-982e-3e09aa420ffa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" afterPath="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youtube_embed.gemspec" afterPath="$PROJECT_DIR$/youtube_embed.gemspec" />
     </list>
     <ignored path="youtube_embed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +10,7 @@
     <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369637948290" ignored="false" />
     <file path="/youtube_embed.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369383591560" ignored="false" />
     <file path="/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166205275" ignored="false" />
-    <file path="/README.md" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369637722497" ignored="false" />
+    <file path="/README.md" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638181187" ignored="false" />
     <file path="/version.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365079782979" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/models/post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369637123885" ignored="false" />
     <file path="/post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369636770920" ignored="false" />
@@ -89,7 +86,7 @@
     <file path="$PROJECT_DIR$/../chadr_for_change/app/views/layouts/user_profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776590845" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773155230" ignored="false" />
     <file path="/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773119369" ignored="false" />
-    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369312875051" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638079409" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile.lock" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369312961168" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774560880" ignored="false" />
     <file path="/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774532040" ignored="false" />
@@ -135,7 +132,7 @@
     <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/profile_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366180776427" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/controllers/report_posts_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366198506962" ignored="false" />
     <file path="/report_posts_controller.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1366198501843" ignored="false" />
-    <file path="/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369311544051" ignored="false" />
+    <file path="/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638079409" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/models/text_post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369636710009" ignored="false" />
     <file path="/text_post.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369636710009" ignored="false" />
     <file path="/videodetails.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369222834619" ignored="false" />
@@ -179,10 +176,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+            <state line="2" column="75" selection-start="91" selection-end="91" vertical-scroll-proportion="0.032930844">
               <folding />
             </state>
           </provider>
@@ -215,10 +212,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.18111965">
+            <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -283,8 +280,8 @@
         <option value="$PROJECT_DIR$/lib/youtube_embed.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/youtube_embed.js" />
         <option value="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -640,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -656,7 +646,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.18111965">
+        <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="75" selection-start="91" selection-end="91" vertical-scroll-proportion="0.032930844">
           <folding />
         </state>
       </provider>

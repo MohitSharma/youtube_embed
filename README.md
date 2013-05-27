@@ -1,6 +1,6 @@
 # YoutubeEmbed
 
-Embed youtube videos in textarea from URL
+Embed youtube videos in on site saving  URL and get relevant output in view
 
 1. Simple Embed
 
@@ -26,16 +26,16 @@ It can be used in model where we can specify simple iframe embed or embedding wi
 
 Simple:
 
-  youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
+    youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
 
 With Thumbnail & Description:
 
-  youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
+    youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
 
 
 This will modify the youtube link into html required to embed, If you don't want to modify html or simple change the view you can call method in view like this:
 
- <?=  YoutubeEmbed::youtube_embed(attr_here) ?>
+    <?=  YoutubeEmbed::youtube_embed(attr_here) ?>
 
 Working on further improvements
 
