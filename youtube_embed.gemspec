@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = YoutubeEmbed::VERSION
   gem.authors       = ["Mohit Sharma"]
   gem.email         = ["developer.pht@gmail.com"]
-  gem.description   = %q{Embed youtube videos in textarea}
-  gem.summary       = %q{Embed youtube videos in textarea with thumbnail, title description}
+  gem.description   = %q{Embed youtube videos by saving url}
+  gem.summary       = %q{Embed youtube videos saving url and show simple iframe embedded or embedded like facebook with thumnail, title and description }
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

@@ -22,7 +22,22 @@ Or install it yourself as:
 
 ## Usage
 
-Under Active Development
+It can be used in model where we can specify simple iframe embed or embedding with thumbnail & description
+
+Simple:
+
+  youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
+
+With Thumbnail & Description:
+
+  youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
+
+
+This will modify the youtube link into html required to embed, If you don't want to modify html or simple change the view you can call method in view like this:
+
+ <?=  YoutubeEmbed::youtube_embed(attr_here) ?>
+
+Working on further improvements
 
 ## Contributing
 
