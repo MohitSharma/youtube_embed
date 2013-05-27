@@ -21,9 +21,13 @@ Or install it yourself as:
     $ gem install youtube_embed
 
 And add CSS and JS
-  CSS in application.css
+
+CSS in application.css
+
     *= require youtube_embed
-  JS in application.js
+
+JS in application.js
+
     //= require youtube_embed
 
 ## Usage
