@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7640352-25ab-4292-982e-3e09aa420ffa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_embed/version.rb" afterPath="$PROJECT_DIR$/lib/youtube_embed/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youtube_embed.gemspec" afterPath="$PROJECT_DIR$/youtube_embed.gemspec" />
     </list>
     <ignored path="youtube_embed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369636635705" ignored="false" />
-    <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369637948290" ignored="false" />
+    <file path="/youtube_embed.gemspec" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369639554542" ignored="false" />
     <file path="/youtube_embed.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369383591560" ignored="false" />
     <file path="/.gitignore" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365166205275" ignored="false" />
     <file path="/README.md" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638181187" ignored="false" />
@@ -86,7 +90,7 @@
     <file path="$PROJECT_DIR$/../chadr_for_change/app/views/layouts/user_profile.haml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365776590845" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773155230" ignored="false" />
     <file path="/feedback_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365773119369" ignored="false" />
-    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638079409" ignored="false" />
+    <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638439043" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/Gemfile.lock" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369312961168" ignored="false" />
     <file path="$PROJECT_DIR$/../chadr_for_change/app/helpers/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774560880" ignored="false" />
     <file path="/feedbacks_helper.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1365774532040" ignored="false" />
@@ -142,6 +146,8 @@
     <file path="/engine.rb" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369312711007" ignored="false" />
     <file path="/youtube_embed.css" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369314126545" ignored="false" />
     <file path="/youtube_embed.js" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369375120399" ignored="false" />
+    <file path="/CHANGELOG.md" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369638358355" ignored="false" />
+    <file path="/.travis.yml" changelist="b7640352-25ab-4292-982e-3e09aa420ffa" time="1369639647300" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +182,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="75" selection-start="91" selection-end="91" vertical-scroll-proportion="0.032930844">
+            <state line="5" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="18" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube_embed-0.0.1.alpha.gem" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youtube_embed-0.0.1.alpha.gem">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,46 +227,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_details.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/video_details.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="6" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/youtube_embed/railtie.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="30" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="youtube_embed.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="19" column="38" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youtube_embed.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/youtube_embed.css">
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="youtube_embed.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/youtube_embed.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="1" column="9" selection-start="14" selection-end="14" vertical-scroll-proportion="0.016465422">
               <folding />
             </state>
           </provider>
@@ -266,9 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/youtube_embed_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/youtube_embed/railtie.rb" />
         <option value="$PROJECT_DIR$/lib/youtube_embed/videodetails.rb" />
         <option value="$PROJECT_DIR$/lib/youtube_embed/video_object.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -280,8 +283,11 @@
         <option value="$PROJECT_DIR$/lib/youtube_embed.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/youtube_embed.js" />
         <option value="$PROJECT_DIR$/lib/youtube_embed/model_additions.rb" />
-        <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/youtube_embed/version.rb" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/youtube_embed.gemspec" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -334,38 +340,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="youtube_embed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_embed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_embed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_embed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_embed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_embed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="youtube_embed" />
@@ -554,26 +528,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/youtube_embed_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/video_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="103" selection-end="111" vertical-scroll-proportion="0.0">
@@ -644,16 +598,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="151" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/lib/youtube_embed/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="75" selection-start="91" selection-end="91" vertical-scroll-proportion="0.032930844">
+        <state line="1" column="18" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youtube_embed-0.0.1.alpha.gem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youtube_embed.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="38" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="14" selection-end="14" vertical-scroll-proportion="0.016465422">
           <folding />
         </state>
       </provider>
