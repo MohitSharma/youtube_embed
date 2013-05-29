@@ -40,7 +40,7 @@ Simple:
 
 With Thumbnail & Description:
 
-    youtube_embed :field_name, {:with_description => false, :width => 450, :height => 300}
+    youtube_embed :field_name, {:with_description => true, :width => 450, :height => 300}
 
 
 This will modify the youtube link into html required to embed, If you don't want to modify html or simple change the view you can call method in view like this:

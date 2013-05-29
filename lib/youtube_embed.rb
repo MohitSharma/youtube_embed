@@ -20,11 +20,13 @@ module YoutubeEmbed
   end
 
   def self.youtube_embed(data, options = {:with_description => true, :height => 200, :width => 300})
-    data = data.gsub(/<a?[^<]+ href="[(https?:\/\/)?(www\.)?youtube.com[^<]+]+">([^<]+)<\/a>/i, '\1')
-    if options[:with_description]
-      data = data.gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, thumbnail_and_description("#{$1}", options[:width], options[:height]))
-    else
-      data = data.gsub(/https?:\/\/?(?:www\.)?youtube\.com(?:\/v\/|\/watch\?v=)([A-Za-z0-9_-]{11})/, simple("#{$1}", options[:width], options[:height]))
+    if data.match(/https?:\/\/?(?:www\.)?youtu(?:\.be|be\.com)/)
+      data = data.gsub(/<a?[^<]+ href="(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11}"?[^<]+>([^<]+)<\/a>/i, '\1')
+      if options[:with_description]
+        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11})/i, thumbnail_and_description("#{$1}", options[:width], options[:height]))
+      else
+        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11})/i, simple("#{$1}", options[:width], options[:height]))
+      end
     end
     return data
   end
@@ -39,16 +41,16 @@ module YoutubeEmbed
           return %Q{<div class="youtube_embed_video">
             <div class="youtube_embed_partial_video">
               <div class="youtube_embed_thumbnail">
-                <img src="#{thumbnails[1]["url"]}" />
+                <img src="#{thumbnails[1]["url"] ? thumbnails[1]["url"] : ""}" />
               </div>
               <div class="youtube_embed_details">
                 <div class="youtube_embed_title">
                  <strong>
-                   #{video_details.title["__content__"]}
+                   #{video_details.title["__content__"] ? video_details.title["__content__"] : ""}
                  </strong>
                 </div>
                 <div class="youtube_embed_description">
-                  #{video_details.description["__content__"].truncate(185)}
+                  #{video_details.description["__content__"] ? video_details.description["__content__"].truncate(185) : ""}
                 </div>
               </div>
             </div>
