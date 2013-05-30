@@ -31,7 +31,7 @@ module YoutubeEmbed
       end
       return @entry
     rescue MultiXml::ParseError
-      Rails.logger.debug "Invalid Video"
+      return 'failed'
     end
 
     private

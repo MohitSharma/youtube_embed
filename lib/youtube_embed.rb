@@ -37,7 +37,7 @@ module YoutubeEmbed
         video_id = get_video_id(video_url)
         if video_id.present?
           video_details = YoutubeEmbed::VideoDetails.new(video_id)
-          if  video_details.try(:thumbnail)
+          if video_details.entry !='failed'  #invalid video check
             thumbnails = video_details.thumbnail
             return %Q{<div class="youtube_embed_video">
               <div class="youtube_embed_partial_video">
