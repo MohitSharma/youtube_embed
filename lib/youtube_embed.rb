@@ -21,11 +21,11 @@ module YoutubeEmbed
 
   def self.youtube_embed(data, options = {:with_description => true, :height => 200, :width => 300})
     if data.match(/https?:\/\/?(?:www\.)?youtu(?:\.be|be\.com)/)
-      data = data.gsub(/<a?[^<]+ href="(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11}"?[^<]+>([^<]+)<\/a>/i, '\1')
+      data = data.gsub(/<a?[^<]+ href="(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?[a-zA-Z0-9-]{10,11}"?[^<]+>([^<]+)<\/a>/i, '\1')
       if options[:with_description]
-        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11})/i, thumbnail_and_description("#{$1}", options[:width], options[:height]))
+        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?[a-zA-Z0-9-]{10,11})/i, thumbnail_and_description("#{$1}", options[:width], options[:height]))
       else
-        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?\w{10,11})/i, simple("#{$1}", options[:width], options[:height]))
+        data = data.gsub(/((?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?[a-zA-Z0-9-]{10,11})/i, simple("#{$1}", options[:width], options[:height]))
       end
     end
     return data
