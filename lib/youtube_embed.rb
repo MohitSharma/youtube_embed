@@ -37,27 +37,31 @@ module YoutubeEmbed
         video_id = get_video_id(video_url)
         if video_id.present?
           video_details = YoutubeEmbed::VideoDetails.new(video_id)
-          thumbnails = video_details.thumbnail
-          return %Q{<div class="youtube_embed_video">
-            <div class="youtube_embed_partial_video">
-              <div class="youtube_embed_thumbnail">
-                <img src="#{thumbnails[1]["url"] ? thumbnails[1]["url"] : ""}" />
-              </div>
-              <div class="youtube_embed_details">
-                <div class="youtube_embed_title">
-                 <strong>
-                   #{video_details.title["__content__"] ? video_details.title["__content__"] : ""}
-                 </strong>
+          if  video_details.try(:thumbnail)
+            thumbnails = video_details.thumbnail
+            return %Q{<div class="youtube_embed_video">
+              <div class="youtube_embed_partial_video">
+                <div class="youtube_embed_thumbnail">
+                  <img src="#{thumbnails[1]["url"] ? thumbnails[1]["url"] : ""}" />
                 </div>
-                <div class="youtube_embed_description">
-                  #{video_details.description["__content__"] ? video_details.description["__content__"].truncate(185) : ""}
+                <div class="youtube_embed_details">
+                  <div class="youtube_embed_title">
+                   <strong>
+                     #{video_details.title["__content__"] ? video_details.title["__content__"] : ""}
+                   </strong>
+                  </div>
+                  <div class="youtube_embed_description">
+                    #{video_details.description["__content__"] ? video_details.description["__content__"].truncate(185) : ""}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="youtube_embed_main_video" style="display:none;">
-              <iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>}
+              <div class="youtube_embed_main_video" style="display:none;">
+                <iframe title="YouTube player" width="#{ width }" height="#{ height }" src="http://www.youtube.com/embed/#{ video_id }" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>}
+          else
+            return video_url
+          end
         else
           return video_url
         end
